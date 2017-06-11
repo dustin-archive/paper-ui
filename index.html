@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang='en-us'>
+  <head>
+    <meta charset='utf-8'>
+    <meta name='viewport' content='width=device-width, initial-scale=1, user-scalable=0'>
+    <title>Paper UI</title>
+    <link href='dist/styles.css' rel='stylesheet'>
+    <style>
+      /* reset */
+      /* ==================================================================== */
+      * {
+        position: relative;
+        box-sizing: border-box;
+        font: inherit;
+      }
+      body {
+        font: 400 1em/1 '-apple-system', BlinkMacSystemFont, sans-serif;
+        margin: 0;
+      }
+
+      /* bar */
+      /* ==================================================================== */
+      .bar {
+        display: flex;
+        background: hsl(200, 85%, 50%);
+      }
+
+      /* input */
+      /* ==================================================================== */
+      .input:focus {
+        border-color: hsl(200, 85%, 50%);
+      }
+      .input::-webkit-input-placeholder {
+        color: hsl(200, 15%, 75%);
+      }
+      .input {
+        outline: none;
+        display: block;
+        width: 100%;
+        height: 48px;
+        padding: 0 12px;
+        border: 0 solid hsl(200, 15%, 87.5%);
+        border-bottom-width: 2px;
+      }
+
+      /* page */
+      /* ==================================================================== */
+      .page-inner {
+        flex: 1;
+        display: flex;
+      }
+      .page {
+        display: flex;
+        flex-flow: column;
+        height: 100vh;
+      }
+
+      /* dash */
+      /* ==================================================================== */
+      .dash-scroll {
+        flex: 1;
+        padding: 24px;
+        overflow: auto;
+      }
+      .dash-block + .dash-block {
+        padding: 12px 0 0;
+      }
+      .dash {
+        display: flex;
+        flex-flow: column;
+        min-width: 384px;
+        background: #fff;
+      }
+
+      /* site */
+      /* ==================================================================== */
+      .site {
+        flex: 1;
+        background: hsl(200, 15%, 93.75%);
+      }
+    </style>
+  </head>
+  <body>
+    <script src='dist/bundle.js'></script>
+  </body>
+</html>
