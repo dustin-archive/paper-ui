@@ -1,7 +1,7 @@
 {
-  "name": "paper-cms",
+  "name": "paper-ui",
   "version": "0.0.0",
-  "description": "A minimal JSON oriented CMS",
+  "description": "Agnostic UI library that returns virtual nodes",
   "main": "index.js",
   "author": "Dustin Dowell <dustindowell22@gmail.com>",
   "license": "MIT",
