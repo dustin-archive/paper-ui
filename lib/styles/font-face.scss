@@ -1,14 +1,14 @@
 @font-face {
   font-family: 'Material Icons';
-  src: local('MaterialIcons'), local('MaterialIcons-Regular'), url('fonts/MaterialIcons-Regular.woff2') format('woff2'), url('fonts/MaterialIcons-Regular.woff') format('woff');
+  src: local('MaterialIcons'), local('MaterialIcons-Regular'), url('../fonts/MaterialIcons-Regular.woff2') format('woff2'), url('fonts/MaterialIcons-Regular.woff') format('woff');
 }
 
 @font-face {
   font-family: 'Roboto';
-  src: local('Roboto'), local('Roboto-Regular'), url('fonts/roboto-v16-latin-regular.woff2') format('woff2'), url('fonts/roboto-v16-latin-regular.woff') format('woff');
+  src: local('Roboto'), local('Roboto-Regular'), url('../fonts/roboto-v16-latin-regular.woff2') format('woff2'), url('fonts/roboto-v16-latin-regular.woff') format('woff');
 }
 
 @font-face {
   font-family: 'Roboto Mono';
-  src: local('RobotoMono'), local('RobotoMono-Regular'), url('fonts/roboto-mono-v4-latin-regular.woff2') format('woff2'), url('fonts/roboto-mono-v4-latin-regular.woff') format('woff');
+  src: local('RobotoMono'), local('RobotoMono-Regular'), url('../fonts/roboto-mono-v4-latin-regular.woff2') format('woff2'), url('fonts/roboto-mono-v4-latin-regular.woff') format('woff');
 }
